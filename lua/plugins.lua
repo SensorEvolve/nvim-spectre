@@ -1,13 +1,14 @@
 return{
-{"startup-nvim/startup.nvim"},
+{"3rd/image.nvim"},
+{"christoomey/vim-tmux-navigator"},
 {"nvim-telescope/telescope.nvim"},
+{"nvim-neo-tree/neo-tree.nvim"},
 {"ThePrimeagen/harpoon"},
 {"MunifTanjim/nui.nvim"},
 {'nvim-tree/nvim-web-devicons'},
 {"nvim-lua/plenary.nvim"},
 {"tiagovla/tokyodark.nvim"},
 {"folke/which-key.nvim"},
-{'nvim-neo-tree/neo-tree.nvim'},
 {'mbbill/undotree'},
 {"nvim-lualine/lualine.nvim"},
 {"nvim-treesitter/nvim-treesitter"},
@@ -26,8 +27,6 @@ return{
 {"hrsh7th/nvim-cmp"},
 {"simrat39/rust-tools.nvim"},
 {"mfussenegger/nvim-dap"},
---Window navigator
-{"christoomey/vim-tmux-navigator"},
   --Term
 {"akinsho/toggleterm.nvim"},
 {'m4xshen/autoclose.nvim'},

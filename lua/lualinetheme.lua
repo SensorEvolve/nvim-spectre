@@ -134,7 +134,7 @@ ins_left { 'progress', color = { fg = colors.fg, gui = 'bold' } }
 ins_left {
   'diagnostics',
   sources = { 'nvim_diagnostic' },
-  symbols = { error = ' ', warn = ' ', info = ' ' },
+  symbols = { error = '💥 ', warn = '🧨 ', info = '🦜 ' },
   diagnostics_color = {
     color_error = { fg = colors.red },
     color_warn = { fg = colors.yellow },
@@ -167,7 +167,7 @@ ins_left {
     end
     return msg
   end,
-  icon = ' LSP:',
+  icon = '🌍 LSP:',
   color = { fg = '#51AFEF', gui = 'bold' },
 }
 -- Add components to right sections
